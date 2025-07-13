@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second-hand Products - Red makeup Beauty O2O Platform</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <i class="fas fa-spa"></i>
+                Red makeup
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="products.html" class="active">Second-hand</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <h1>Second-hand Beauty Mall</h1>
+            <p class="subtitle">Quality second-hand beauty products for your beauty enhancement</p>
+        </section>
+
+        <section class="search-section">
+            <div class="search-container">
+                <div class="search-box">
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="Search products...">
+                </div>
+                <div class="filter-group">
+                    <select class="category-filter">
+                        <option value="">All Categories</option>
+                        <option value="face">Base Makeup</option>
+                        <option value="eye">Eye Makeup</option>
+                        <option value="lip">Lip Makeup</option>
+                        <option value="skin">Skincare</option>
+                    </select>
+                    <select class="sort-filter">
+                        <option value="newest">Latest</option>
+                        <option value="price-low">Price Low to High</option>
+                        <option value="price-high">Price High to Low</option>
+                    </select>
+                </div>
+            </div>
+            <div class="tags-container">
+                <span class="tag active">All</span>
+                <span class="tag">Base</span>
+                <span class="tag">Eyes</span>
+                <span class="tag">Lips</span>
+                <span class="tag">Skincare</span>
+            </div>
+        </section>
+
+        <div class="content-grid">
+            <aside class="sidebar">
+                <div class="filter-section">
+                    <h3>Price Range</h3>
+                    <div class="price-range">
+                        <input type="range" min="0" max="1000" value="500">
+                        <div class="price-inputs">
+                            <input type="number" placeholder="Min" min="0">
+                            <span>-</span>
+                            <input type="number" placeholder="Max" min="0">
+                        </div>
+                    </div>
+                </div>
+                <div class="filter-section">
+                    <h3>Brands</h3>
+                    <div class="brand-filters">
+                        <label><input type="checkbox"> MAC</label>
+                        <label><input type="checkbox"> YSL</label>
+                        <label><input type="checkbox"> Dior</label>
+                        <label><input type="checkbox"> Charlotte Tilbury</label>
+                        <label><input type="checkbox"> Others</label>
+                    </div>
+                </div>
+                <div class="filter-section">
+                    <h3>Usage Level</h3>
+                    <div class="usage-filters">
+                        <label><input type="checkbox"> Brand New</label>
+                        <label><input type="checkbox"> Used 1-2 times</label>
+                        <label><input type="checkbox"> Used 3-5 times</label>
+                        <label><input type="checkbox"> Used over 5 times</label>
+                    </div>
+                </div>
+            </aside>
+
+            <section class="products-section">
+                <div class="products-grid">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="img/Fs2dBaxNENjNUmWaVwXla_91D7-c.png" alt="YSL Lipstick">
+                            <div class="product-badge new">New</div>
+                            <div class="product-actions">
+                                <button class="action-btn"><i class="far fa-heart"></i></button>
+                                <button class="action-btn"><i class="fas fa-share"></i></button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>YSL Lipstick</h3>
+                            <div class="product-meta">
+                                <span class="brand">YSL</span>
+                                <span class="usage">Used once</span>
+                            </div>
+                            <div class="product-price">
+                                <span class="current-price">HKD 150</span>
+                                <span class="original-price">HKD 320</span>
+                            </div>
+                            <button class="contact-btn"><i class="far fa-comment-dots"></i> Contact Seller</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="img/u=2945336406,3155781548&fm=253&fmt=auto&app=138&f=JPEG.webp" alt="Charlotte Tilbury Foundation">
+                            <div class="product-badge hot">Hot</div>
+                            <div class="product-actions">
+                                <button class="action-btn"><i class="far fa-heart"></i></button>
+                                <button class="action-btn"><i class="fas fa-share"></i></button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Charlotte Tilbury Foundation</h3>
+                            <div class="product-meta">
+                                <span class="brand">Charlotte Tilbury</span>
+                                <span class="usage">Used twice</span>
+                            </div>
+                            <div class="product-price">
+                                <span class="current-price">HKD 200</span>
+                                <span class="original-price">HKD 450</span>
+                            </div>
+                            <button class="contact-btn"><i class="far fa-comment-dots"></i> Contact Seller</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <section class="seller-section">
+            <div class="seller-card">
+                <div class="seller-icon">
+                    <i class="fas fa-recycle"></i>
+                </div>
+                <h2>Cosmetics Recycling</h2>
+                <p>Upload photos of your unused cosmetics, and we'll provide professional valuation</p>
+                <button class="upload-btn"><i class="fas fa-upload"></i> Upload Products</button>
+            </div>
+        </section>
+
+        <section class="samples-section" id="samples">
+            <h2 class="section-title">Brand Samples</h2>
+            <p class="section-subtitle">Selected luxury brand samples at affordable prices</p>
+            
+            <div class="samples-grid">
+                <div class="sample-card">
+                    <div class="sample-image">
+                        <img src="img/u=3769533544,2727829614&fm=224&app=112&f=JPEG.jpg" alt="Chanel Perfume Sample">
+                        <div class="sample-badge">Limited</div>
+                    </div>
+                    <div class="sample-info">
+                        <h3>Chanel Perfume Sample</h3>
+                        <p class="sample-desc">5ml</p>
+                        <div class="sample-price">
+                            <span class="price">HKD 80</span>
+                            <span class="original">HKD 120</span>
+                        </div>
+                        <button class="buy-btn">Buy Now</button>
+                    </div>
+                </div>
+
+                <div class="sample-card">
+                    <div class="sample-image">
+                        <img src="img/u=2688370984,2669449455&fm=253&fmt=auto&app=138&f=JPEG.webp" alt="Dior Foundation Sample">
+                        <div class="sample-badge">Best Seller</div>
+                    </div>
+                    <div class="sample-info">
+                        <h3>Dior Foundation Sample</h3>
+                        <p class="sample-desc">5ml</p>
+                        <div class="sample-price">
+                            <span class="price">HKD 95</span>
+                            <span class="original">HKD 150</span>
+                        </div>
+                        <button class="buy-btn">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p><i class="fab fa-weixin"></i> WeChat: RedMakeup-CS</p>
+                <p><i class="far fa-envelope"></i> Email: contact@redmakeup.com</p>
+            </div>
+            <div class="footer-section">
+                <h3>Business Hours</h3>
+                <p><i class="far fa-clock"></i> Mon-Sun: 10:00 AM - 10:00 PM</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-weibo"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>
+                <i class="far fa-copyright copyright-icon"></i>
+                <span class="year">2025</span>
+                <span class="company">Red makeup Beauty O2O Platform</span>
+                <span>All rights reserved.</span>
+            </p>
+        </div>
+    </footer>
+</body>
+</html> 
